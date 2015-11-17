@@ -1,0 +1,13 @@
+<Alloy>
+	<Window backgroundColor="white">
+		<View class="container">
+			<Label class="name" id="name" text="name" />
+			<Label class="address" id="address" text="address" />
+	        
+	        <Label class="lvacant" text="Vacant Slots" />
+	   </View>
+	   <View class="vacantcont">
+	   		<Label class="vacant" id="vacant">0</Label>
+	   </View>
+	</Window>
+</Alloy>

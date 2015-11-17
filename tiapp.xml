@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.kenttest.kenttest</id>
+  <name>KentTest</name>
+  <version>1.0</version>
+  <publisher>elp</publisher>
+  <url>http://kentando.com</url>
+  <description>undefined</description>
+  <copyright>2015 by elp</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>true</fullscreen>
+  <navbar-hidden>true</navbar-hidden>
+  <statusbar-hidden>true</statusbar-hidden>
+  <analytics>false</analytics>
+  <guid>941b9b50-00da-4613-9444-6ad0d9e45d09</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <ios>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest>
+      <application>
+        <!-- Replace "PASTE YOUR GOOGLE MAPS API KEY HERE" with the Google API key you obtained -->
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBntBBo6Hki7GIrUK6pufqG7wmty7-0AP0"/>
+      </application>
+    </manifest>
+  </android>
+  <mobileweb>
+    <precache/>
+    <splash>
+      <enabled>true</enabled>
+      <inline-css-images>true</inline-css-images>
+    </splash>
+    <theme>default</theme>
+  </mobileweb>
+  <modules>
+    <module platform="iphone">ti.map</module>
+    <module platform="android">ti.map</module>
+    <module platform="commonjs">ti.cloud</module>
+  </modules>
+  <deployment-targets>
+    <target device="android">true</target>
+    <target device="ipad">false</target>
+    <target device="iphone">false</target>
+    <target device="mobileweb">true</target>
+  </deployment-targets>
+  <sdk-version>3.5.1.RC</sdk-version>
+  <plugins>
+    <plugin version="1.0">ti.alloy</plugin>
+  </plugins>
+  <property name="appc-app-id" type="string">55ffbb0b0b8f051a485006b8</property>
+  <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-development" type="string">Yu2XGcve12IyXHTfUhr1akxwiDa83iza</property>
+  <property name="acs-oauth-key-development" type="string">RTX4LZdfkGmwCT54kurCwqCMZMjnLi5a</property>
+  <property name="acs-api-key-development" type="string">cXZQKd3i3KnUen94W26Ho3Yd0TCSd1Fj</property>
+  <property name="acs-username-development" type="string">appc_app_user_dev</property>
+  <property name="acs-password-development" type="string">XoZ5gX4mJATLxsGwCZ</property>
+  <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+  <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+  <property name="acs-oauth-secret-production" type="string">syBniTmuIkPZJsiZ7bmffBx61B9P5ZMk</property>
+  <property name="acs-oauth-key-production" type="string">Sp37zjS3e67LgTcvREn8fQubYbNgF528</property>
+  <property name="acs-api-key-production" type="string">QqX3SwIUE01QhmRaN4I4NWvMVFC9gZoi</property>
+  <property name="acs-username-production" type="string">appc_app_user</property>
+  <property name="acs-password-production" type="string">kAvhxMRF4ZipJsO7Zn</property>
+  <property name="appc-org-id" type="string">100068596</property>
+  <property name="appc-creator-user-id" type="string">8758e3dd-efc5-48bb-80f6-dd33a6833614</property>
+</ti:app>

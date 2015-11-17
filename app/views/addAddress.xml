@@ -1,0 +1,12 @@
+<Alloy>
+	<View class="addAddress">
+		<TextField id="textField" hintText="Enter an address" value="ayala cebu" />
+		<Button id="button" title="+" />
+		<Button id="favbtn">Favorites</Button>	
+		<Button id="listview">List View</Button>
+		<Button id="mapview">Map View</Button>
+	</View>
+	<View id="searching" class="searching">
+		<Label class="searchingtext">Searching...</Label>
+	</View>
+</Alloy>

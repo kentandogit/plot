@@ -1,0 +1,11 @@
+<Alloy>
+	<Collection src="parkinglot" />
+    <Window backgroundColor="white" onClose="cleanup">
+    	<Require src="addAddress" id="addAddress" />
+    	<ListView class="pllist">
+        	 <ListSection dataCollection="parkinglot">
+                <ListItem title="{name}">{name}</ListItem>
+            </ListSection>
+        </ListView>
+    </Window>
+</Alloy>

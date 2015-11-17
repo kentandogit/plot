@@ -1,0 +1,69 @@
+"TextField": {
+    height: '40dp',
+    top: '5dp',
+    left: '5dp',
+    right: '50dp',
+    style: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+    backgroundColor: '#fff',
+    paddingLeft: '5dp',
+    color: '#000'
+}
+
+"#button": {
+    font: {
+        fontSize: '20dp',
+        fontWeight: 'bold'	
+    },
+    top: '5dp',
+    height: '40dp',
+    width: '40dp',
+    right: '5dp'
+}
+
+"#listview": {
+    font: {
+        fontSize: '12dp'	
+    },
+    top: '43dp',
+    height: '40dp',
+    left: '68dp'
+}
+
+"#favbtn": {
+    font: {
+        fontSize: '12dp'	
+    },
+    top: '43dp',
+    height: '40dp',
+    left: '1dp'
+}
+
+"#mapview": {
+    font: {
+        fontSize: '12dp'	
+    },
+    top: '43dp',
+    height: '40dp',
+    left: '134dp'
+}
+
+".addAddress": {
+    backgroundColor: '#800',
+    height: '83dp',
+    top: 0
+}
+
+".searching" : {
+	backgroundColor : '#636060',
+	opacity : '0.8',
+	zIndex : '100',
+	visible : false
+}
+
+".searchingtext" : {
+  color: '#000',
+  font: {
+        fontSize: '30dp',
+        fontWeight: 'bold'	
+  }
+}
